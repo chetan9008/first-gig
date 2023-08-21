@@ -1,4 +1,6 @@
-:root {}
+:root {
+    --black: #323437;
+}
 
 * {
     font-family: 'Oswald', sans-serif;
@@ -27,11 +29,16 @@ header .background-img {
     align-items: center;
     color: white;
     height: 90vh;
-    /* background: url(images/header-img.jpg) no-repeat center center/cover; */
+    background: url(images/header-img.jpg) no-repeat center center/cover;
+}
+
+header .index-heading {
+    border: 5px solid white;
+    padding: 1rem;
 }
 
 footer {
-    background-color: #323437;
+    background-color: var(--black);
     display: flex;
     text-align: center;
     padding: 2rem;
@@ -58,17 +65,20 @@ footer a:hover {
 
 /* portfolio  */
 
-.port-card img
-{
+.port-card img {
     height: 20rem;
 }
 
-.container-1 
-{
-    padding:0rem 3rem 0rem 3rem;
+.container-1 {
+    padding: 0rem 3rem 0rem 3rem;
 }
 
 @media (max-width:992px) {
+    header .index-heading {
+        border: 5px solid white;
+        padding: .5rem;
+        text-align: center;
+    }
 
     .about img {
         width: 100%;
@@ -82,4 +92,3 @@ footer a:hover {
         display: block !important;
     }
 }
-
