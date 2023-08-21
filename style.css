@@ -19,9 +19,15 @@ a:hover {
     color: white;
 }
 
+/* navbar  */
+
 .navbar .navbar-brand img {
     width: 10%;
 }
+
+/* navbar  */
+
+/* index section  */
 
 header .background-img {
     display: grid;
@@ -36,6 +42,10 @@ header .index-heading {
     border: 5px solid white;
     padding: 1rem;
 }
+
+/* index section  */
+
+/* footer  */
 
 footer {
     background-color: var(--black);
@@ -55,6 +65,7 @@ footer a:hover {
     color: white;
 }
 
+/* footer  */
 
 /* about  */
 
@@ -62,6 +73,7 @@ footer a:hover {
     display: none;
 }
 
+/* about  */
 
 /* portfolio  */
 
@@ -73,6 +85,9 @@ footer a:hover {
     padding: 0rem 3rem 0rem 3rem;
 }
 
+/* portfolio  */
+
+/* media query for tablet and mobile  */
 @media (max-width:992px) {
 
     header .index-heading {
@@ -94,9 +109,15 @@ footer a:hover {
     }
 }
 
+/* media query for tablet and mobile */
+
+/* media query for small phone  */
+
 @media (max-width:322px) {
 
-.container-1 {
-    padding-left: 10px;
+    .container-1 {
+        padding-left: 10px;
+    }
 }
-}
+
+/* media query for small phone  */
