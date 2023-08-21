@@ -1,0 +1,85 @@
+:root {}
+
+* {
+    font-family: 'Oswald', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar .navbar-brand img {
+    width: 10%;
+}
+
+header .background-img {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 90vh;
+    /* background: url(images/header-img.jpg) no-repeat center center/cover; */
+}
+
+footer {
+    background-color: #323437;
+    display: flex;
+    text-align: center;
+    padding: 2rem;
+    font-size: 150%;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+
+/* about  */
+
+.about .para-mobile {
+    display: none;
+}
+
+
+/* portfolio  */
+
+.port-card img
+{
+    height: 20rem;
+}
+
+.container-1 
+{
+    padding:0rem 3rem 0rem 3rem;
+}
+
+@media (max-width:992px) {
+
+    .about img {
+        width: 100%;
+    }
+
+    .about .para-pc {
+        display: none !important;
+    }
+
+    .about .para-mobile {
+        display: block !important;
+    }
+}
+
