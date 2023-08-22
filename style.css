@@ -36,7 +36,7 @@ header .background-img {
     align-items: center;
     color: white;
     height: 90vh;
-    background: url(images/header-img.jpg) no-repeat center center/cover;
+    background: url(header-img.jpg) no-repeat center center/cover;
 }
 
 header .index-heading {
