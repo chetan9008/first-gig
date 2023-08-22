@@ -21,9 +21,10 @@ a:hover {
 
 /* navbar  */
 
-.navbar .navbar-brand img {
-    width: 10%;
+.navbar .navbar-brand {
+    width: 8%;
 }
+
 
 /* navbar  */
 
@@ -90,6 +91,10 @@ footer a:hover {
 /* media query for tablet and mobile  */
 @media (max-width:992px) {
 
+    .navbar .navbar-brand {
+        width: 12%;
+    }
+
     header .index-heading {
         border: 5px solid white;
         padding: .5rem;
@@ -114,6 +119,10 @@ footer a:hover {
 /* media query for small phone  */
 
 @media (max-width:322px) {
+
+    .navbar .navbar-brand {
+        width: 20%;
+    }
 
     .container-1 {
         padding-left: 10px;
