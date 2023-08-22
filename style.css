@@ -43,13 +43,18 @@ header .index-heading {
     border: 5px solid white;
     padding: 1rem;
 }
+header .index-heading:hover 
+{
+    transition: .4s ease-in;
+    scale:1.1;
+}
 
 /* index section  */
 
 /* footer  */
 
 footer {
-    background-color: var(--black);
+    background:linear-gradient(to right top,#365a6b,#1e2f3a);
     display: flex;
     text-align: center;
     padding: 2rem;
@@ -63,7 +68,7 @@ footer a {
 
 footer a:hover {
     text-decoration: none;
-    color: white;
+    color: yellow;
 }
 
 /* footer  */
@@ -87,6 +92,28 @@ footer a:hover {
 }
 
 /* portfolio  */
+
+/* newsletter  */
+
+.newsletter input[type="text"] {
+    border-radius: 10px;
+    padding: .2rem;
+}
+.checkbox-label input:checked
+{
+    accent-color: rgb(27, 27, 255);
+}
+.checkbox-label input[type=checkbox] {
+    width: 17px;
+    height: 17px;
+}
+.newsletter
+{
+    color:white;
+    background: linear-gradient(to right,#853198,#4c0ece);
+}
+
+/* newsletter  */
 
 /* media query for tablet and mobile  */
 @media (max-width:992px) {

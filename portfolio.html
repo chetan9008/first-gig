@@ -22,6 +22,11 @@
 
     <!-- Add Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!-- animation cdn  -->
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 
 <body>
@@ -31,14 +36,15 @@
             <a class="navbar-brand" href="#">
                 <img src="images/logo.jpg" alt="" class="img-fluid">
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <div class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        <a class="nav-link " aria-current="page" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link " href="about.html">About</a>
@@ -61,7 +67,8 @@
             <div class="port-card">
                 <div class="row">
                     <div class="col-lg-4 col-md-6">
-                        <div class="card mb-3" style="width: 18rem;">
+                        <div class="card mb-3" style="width: 18rem;" data-aos="fade-right"
+                           data-delay="200">
                             <img src="images/card-1.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">Fiscus Bonsai</h5>
@@ -73,7 +80,8 @@
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6">
-                        <div class="card mb-3" style="width: 18rem;">
+                        <div class="card mb-3" style="width: 18rem;"
+                        data-aos="fade-down" data-delay="400">
                             <img src="images/card-2.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">Abana Bonsai</h5>
@@ -85,7 +93,8 @@
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6">
-                        <div class="card mb-3" style="width: 18rem;">
+                        <div class="card mb-3" style="width: 18rem;" data-aos="fade-left"
+                            data-delay="600">
                             <img src="images/card-3.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">Flowering Bonsai</h5>
